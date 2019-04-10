@@ -176,7 +176,7 @@ export class App extends Component{
     return (
       <div>
         <div style={fixHeaderStyle}>
-          fixed header    
+          fixed header
         </div>
         <ReactPullLoad 
           downEnough={100}
@@ -192,7 +192,9 @@ export class App extends Component{
             <button onClick={this.handleAction.bind(this, STATS.loading)}>loading more</button>
             {
               data.map( (str, index )=>{
-                return <li key={index}><img src={str} alt=""/></li>
+                return <li key={index}>
+                  <img src={str} alt=""/>
+                </li>
               })
             }
           </ul>

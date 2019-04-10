@@ -1,27 +1,27 @@
 
-import React, { PureComponent } from 'react'
-import PropTypes from 'prop-types';
-import { STATS } from './constants'
+// import React, { PureComponent } from 'react'
+// import PropTypes from 'prop-types';
+// import { STATS } from './constants'
 
-export default class HeadNode extends PureComponent{
+// export default class HeadNode extends PureComponent{
 
-  static propTypes = {
-    loaderState: PropTypes.string.isRequired,
-  };
+//   static propTypes = {
+//     loaderState: PropTypes.string.isRequired,
+//   };
 
-  static defaultProps = {
-    loaderState: STATS.init,
-  };
+//   static defaultProps = {
+//     loaderState: STATS.init,
+//   };
 
-  render(){
-    const {
-      loaderState
-    } = this.props
+//   render(){
+//     const {
+//       loaderState
+//     } = this.props
 
-    return(
-      <div className="pull-load-head-default">
-        <i/>
-      </div>
-    )
-  }
-}
+//     return(
+//       <div className="pull-load-head-default">
+//         <i/>
+//       </div>
+//     )
+//   }
+// }
